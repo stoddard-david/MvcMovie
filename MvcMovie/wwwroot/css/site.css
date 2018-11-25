@@ -5,6 +5,49 @@ body {
     padding-bottom: 20px;
 }
 
+#mainLink {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-inverse {
+  background: #79006A;
+  border-color: #936F8E;
+}
+
+a, a:link, a:visited {
+  color: #79006A;
+}
+
+a:hover, a:focus, a:active {
+  color: #620056;
+}
+
+.table td, .table th {
+  padding: 4px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.table tr:hover {
+  background-color: #e2cee0;
+}
+
+input[type=submit] {
+  border: 2px solid #79006A;
+  color: white;
+  background: #79006A;
+  transition: .2s;
+}
+
+  input[type=submit]:hover {
+    border: 2px solid #79006A;
+    color: #79006A;
+    background: white;
+  }
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
